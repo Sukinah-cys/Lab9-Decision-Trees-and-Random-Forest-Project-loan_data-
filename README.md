@@ -58,6 +58,6 @@ scikit-learn
 ---
 
 
-## 🔹 Conclusion
+## Conclusion
 Although Random Forest achieved higher accuracy, Decision Tree performed better in detecting unpaid loans. This highlights the importance of evaluating models using metrics like recall and F1-score, especially with imbalanced data.
 
