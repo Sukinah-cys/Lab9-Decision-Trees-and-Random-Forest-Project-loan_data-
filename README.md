@@ -1,16 +1,16 @@
 # Lab9-Decision-Trees-and-Random-Forest-Project-loan_data-
 
-## 🔹 Overview
+## Overview
 This project applies machine learning techniques (Decision Tree and Random Forest) to predict whether a loan will be fully paid or not.
 
 ---
 
-## 🔹 Problem Type
+## Problem Type
 Supervised Machine Learning – Classification
 
 ---
 
-## 🔹 Objective
+## Objective
 The objective of this project is to:
 - Build a **Decision Tree model**
 - Build a **Random Forest model**
@@ -19,7 +19,7 @@ The objective of this project is to:
 
 ---
 
-## 🔹 Dataset Information
+## Dataset Information
 - **Dataset:** `loan_data.csv`
 - **Target Variable:** `not.fully.paid`
 
@@ -37,7 +37,7 @@ The objective of this project is to:
 
 ---
 
-## 🔹 Libraries Used
+## Libraries Used
 ```python
 pandas
 numpy
@@ -49,7 +49,7 @@ scikit-learn
 ---
 
 
-## 🔹 Key Results
+## Key Results
 - Random Forest achieved higher overall accuracy
 - However, it performed poorly in detecting the minority class (not fully paid)
 - The decision tree showed better performance in identifying high-risk loans
