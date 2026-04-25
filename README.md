@@ -1,8 +1,7 @@
 # Lab9-Decision-Trees-and-Random-Forest-Project-loan_data-
 
 ## 🔹 Overview
-This project explores classification using **Decision Tree** and **Random Forest** models on a loan dataset.  
-The goal is to predict whether a loan will be **fully paid or not**.
+This project applies machine learning techniques (Decision Tree and Random Forest) to predict whether a loan will be fully paid or not.
 
 ---
 
@@ -45,6 +44,20 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+```
+
+---
 
 
+## 🔹 Key Results
+- Random Forest achieved higher overall accuracy
+- However, it performed poorly in detecting the minority class (not fully paid)
+- The decision tree showed better performance in identifying high-risk loans
+
+
+---
+
+
+## 🔹 Conclusion
+Although Random Forest achieved higher accuracy, Decision Tree performed better in detecting unpaid loans. This highlights the importance of evaluating models using metrics like recall and F1-score, especially with imbalanced data.
 
